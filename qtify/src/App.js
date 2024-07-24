@@ -11,10 +11,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar searchData={searchData} />
+        {/* <Navbar searchData={searchData} />
         <Hero />
-        {/* Add other components or routes here as needed */}
+        Add other components or routes here as needed */}
       </div>
     </Router>
   );
 }
+export default App;
